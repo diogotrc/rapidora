@@ -120,5 +120,5 @@ MIT — see [LICENSE](LICENSE) for details.
 ---
 
 <div align="center">
-Made for <a href="https://fedoraproject.org">Fedora</a> · by <a href="https://www.youtube.com/@linuxgamerlife">LinuxGamerLife</a>
+Made for <a href="https://fedoraproject.org">Fedora</a> · by <a href="https://www.youtube.com/@linuxgamerlife">LinuxGamerLife</a> and ClaudeAI
 </div>
