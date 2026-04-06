@@ -70,8 +70,7 @@ After installation the app appears in your KDE launcher under **Utilities** as *
 | **Virtualisation** | libvirt, virt-manager fully scaled with native automatic usermod grouping. |
 | **Browsers** | Hybrid Setup: PGP Dynamic Repo Injection for Brave/Vivaldi/Chrome, paired with Flatpaks/RPM native integrations for Chromium/Firefox/LibreWolf. |
 | **Communication & Productivity** | Google Antigravity (AI Dev), ZapZap, Telegram Autostarts, Stellarium, OnlyOffice, and Bazaar Tools. |
-| **KDE Theming** | KZones, Panel Colorizer |
-| **CachyOS Kernel** | kernel-cachyos, scx-scheds, scx-manager, scx-tools |
+
 
 ---
 
