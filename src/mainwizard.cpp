@@ -317,9 +317,6 @@ QList<InstallStep> MainWizard::buildSteps() const
     }
 
     // ---- Browsers ----
-    if (get("browsers/firefox")) {
-        S << dnfStep("firefox", "firefox");
-    }
     if (get("browsers/chromium")) {
         S << dnfStep("chromium", "chromium");
     }
@@ -344,6 +341,13 @@ QList<InstallStep> MainWizard::buildSteps() const
              "rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc"}};
         S << InstallStep{"brave", "Install Brave Browser",
             {"dnf", "-y", "install", "brave-browser"}};
+    }
+    if (get("browsers/brave-nightly")) {
+        S << InstallStep{"brave_nightly_repo", "Add Brave Nightly repo",
+            {"bash", "-c",
+             "dnf install -y dnf-plugins-core && dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-nightly.s3.brave.com/brave-browser-nightly.repo"}};
+        S << InstallStep{"brave_nightly", "Install Brave Origin Nightly",
+            {"dnf", "-y", "install", "brave-origin-nightly"}};
     }
     if (get("browsers/librewolf")) {
         S << flatpakStep("librewolf", "io.gitlab.librewolf-community", "LibreWolf");
@@ -532,10 +536,10 @@ int MainWizard::estimateDiskMB() const
     if (get("virt/libvirt"))      mb += 50;
 
     // Browsers
-    if (get("browsers/firefox"))  mb += 250;
     if (get("browsers/chromium")) mb += 300;
     if (get("browsers/chrome"))   mb += 415;
     if (get("browsers/brave"))    mb += 415;
+    if (get("browsers/brave-nightly")) mb += 420;
     if (get("browsers/vivaldi"))  mb += 423;
     if (get("browsers/librewolf"))mb += 300;
 

@@ -114,6 +114,7 @@ public:
             m_en["Bazaar Center"] = "Bazaar Center";
             m_en["Blender 3D (Flatpak)"] = "Blender 3D";
             m_en["Brave Browser"] = "Brave Browser";
+            m_en["Brave Origin Nightly"] = "Brave Origin Nightly";
             m_en["Camadas vitais pesadas e não-livres, injetando suporte robusto retroativo a formatos MP3, leitura de DVDs e muito mais ao Totem e afins."] = "Vital heavy non-free layers, injecting robust support for MP3 formats, DVD reading, and more.";
             m_en["Chrome com anabolizantes. Escudos fortes, bloqueio absoluto de anúncios, telemetrias e rastreadores desde o primeiro bip."] = "Chrome on steroids. Strong shields, absolute ad-block, and trackers blocked.";
             m_en["Chromium Base"] = "Chromium Base";
@@ -191,9 +192,7 @@ public:
             m_en["Manter os pacotes de base do Fedora atualizados é essencial antes de efetuarmos injeções profundas de novos programas."] = "Keeping Fedora's core packages updated is essential.";
             m_en["Mensageiro rápido nativizado para nuvem via API aberta Telegram."] = "Fast native cloud messenger via Telegram API.";
             m_en["Monitor de recursos com uma bela UI colorida nos terminas de shell."] = "Resource monitor with a beautiful colorful UI.";
-            m_en["Mozilla Firefox"] = "Mozilla Firefox";
             m_en["Multimídia & Codecs"] = "Multimedia & Codecs";
-            m_en["Navegador moderno de código aberto guiado à liberdade de dados. Ele já acompanha o Fedora Core por natureza."] = "Modern open source browser guided by data freedom.";
             m_en["Navegadores"] = "Web Browsers";
             m_en["Navegadores & Web"] = "Web & Browsers";
             m_en["Nenhum erro registrado."] = "No errors recorded.";
@@ -265,6 +264,7 @@ public:
             m_en["Utilitários essenciais de manutenção e otimização da máquina."] = "Essential maintenance and optimization machine utilities.";
             m_en["VLC Media Player"] = "VLC Media Player";
             m_en["Versão do Fedora: "] = "Fedora Version: ";
+            m_en["Versão Nightly do Brave com repositório origin."] = "Nightly version of Brave with origin repository.";
             m_en["Versão open source despida sem as telemetrias e bloqueios da Google. Nenhuma conta atrelada."] = "Open-source version without telemetry and Google blocks.";
             m_en["Virt-Install"] = "Virt-Install";
             m_en["Virt-Manager"] = "Virt-Manager";
@@ -305,6 +305,8 @@ public:
             m_en["🔍 Buscar pacotes (ex: Lutris, Proton)..."] = "🔍 Search packages...";
             m_en["🔎 Sondando PCI Local em busca de GPUs..."] = "🔎 Probing PCI for GPUs...";
             m_en["🟢 Aterrisando: "] = "🟢 Proceeding: ";
+
+
 
         }
     }

@@ -4,7 +4,7 @@
 #define __UINT_LEAST16_MAX__ 0xffff
 #define __FLT16_HAS_QUIET_NAN__ 1
 #define __ATOMIC_ACQUIRE 2
-#define QT_TESTCASE_BUILDDIR "/home/diogo/Documentos/Oppy Config/linuxutil/build_test"
+#define QT_TESTCASE_BUILDDIR "/home/diogo/Documentos/Oppy Config/rapidora/build_test"
 #define __FLT128_MAX_10_EXP__ 4932
 #define __FLT_MIN__ 1.17549435082228750796873653722224568e-38F
 #define __GCC_IEC_559_COMPLEX 2
@@ -180,7 +180,7 @@
 #define __SIZEOF_WINT_T__ 4
 #define __FLT32X_DIG__ 15
 #define __LONG_LONG_WIDTH__ 64
-#define QT_TESTCASE_SOURCEDIR "/home/diogo/Documentos/Oppy Config/linuxutil"
+#define QT_TESTCASE_SOURCEDIR "/home/diogo/Documentos/Oppy Config/rapidora"
 #define __cpp_initializer_lists 200806L
 #define __FLT32_MAX_EXP__ 128
 #define ABI_ID "ELF"
@@ -218,7 +218,7 @@
 #define __DEC_EVAL_METHOD__ 2
 #define __FLT_MANT_DIG__ 24
 #define __LDBL_DECIMAL_DIG__ 21
-#define __VERSION__ "16.0.1 20260321 (Red Hat 16.0.1-0)"
+#define __VERSION__ "16.1.1 20260501 (Red Hat 16.1.1-1)"
 #define __UINT64_C(c) c ## UL
 #define __cpp_unicode_characters 201411L
 #define __DEC64X_MIN__ 1E-6143D64x
@@ -264,7 +264,7 @@
 #define __INT_LEAST16_TYPE__ short int
 #define __LDBL_EPSILON__ 1.08420217248550443400745280086994171e-19L
 #define __UINTMAX_C(c) c ## UL
-#define __GNUC_RH_RELEASE__ 0
+#define __GNUC_RH_RELEASE__ 1
 #define __FLT16_DIG__ 3
 #define __k8 1
 #define __FLT32X_MIN__ 2.22507385850720138309023271733240406e-308F32x
@@ -442,7 +442,7 @@
 #define __GLIBCXX_BITSIZE_INT_N_0 128
 #define __FLT32X_HAS_QUIET_NAN__ 1
 #define __ATOMIC_CONSUME 1
-#define __GNUC_MINOR__ 0
+#define __GNUC_MINOR__ 1
 #define __GLIBCXX_TYPE_INT_N_0 __int128
 #define __UINTMAX_MAX__ 0xffffffffffffffffUL
 #define __FLT32X_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F32x

@@ -1,5 +1,5 @@
 CMakeFiles/rapidora.dir/src/pages/gamingpage.cpp.o: \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/gamingpage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/gamingpage.cpp \
  /usr/include/stdc-predef.h /usr/include/qt6/QtGui/QPalette \
  /usr/include/qt6/QtGui/qpalette.h /usr/include/qt6/QtGui/qtguiglobal.h \
  /usr/include/qt6/QtCore/qglobal.h /usr/include/c++/16/type_traits \
@@ -84,8 +84,7 @@ CMakeFiles/rapidora.dir/src/pages/gamingpage.cpp.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
- /usr/include/c++/16/bits/std_abs.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/16/bits/std_abs.h \
  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h \
  /usr/include/qt6/QtCore/qatomic.h /usr/include/qt6/QtCore/qbasicatomic.h \
@@ -213,7 +212,8 @@ CMakeFiles/rapidora.dir/src/pages/gamingpage.cpp.o: \
  /usr/include/qt6/QtCore/qarraydata.h /usr/include/qt6/QtCore/qpair.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/qt6/QtCore/qcontainertools_impl.h \
- /usr/include/qt6/QtCore/qxptype_traits.h /usr/include/c++/16/cstring \
+ /usr/include/qt6/QtCore/qxptype_traits.h \
+ /usr/include/qt6/QtCore/q23type_traits.h /usr/include/c++/16/cstring \
  /usr/include/c++/16/iterator /usr/include/c++/16/bits/stream_iterator.h \
  /usr/include/c++/16/bits/streambuf_iterator.h \
  /usr/include/c++/16/streambuf /usr/include/c++/16/bits/localefwd.h \
@@ -232,12 +232,11 @@ CMakeFiles/rapidora.dir/src/pages/gamingpage.cpp.o: \
  /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
- /usr/include/c++/16/cerrno /usr/include/errno.h \
- /usr/include/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
- /usr/include/c++/16/bits/charconv.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/16/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h /usr/include/c++/16/bits/charconv.h \
  /usr/include/c++/16/bits/basic_string.tcc \
  /usr/include/c++/16/bits/locale_classes.tcc \
  /usr/include/c++/16/system_error \
@@ -259,7 +258,6 @@ CMakeFiles/rapidora.dir/src/pages/gamingpage.cpp.o: \
  /usr/include/qt6/QtCore/qanystringview.h \
  /usr/include/qt6/QtCore/qutf8stringview.h \
  /usr/include/qt6/QtCore/qstringtokenizer.h \
- /usr/include/qt6/QtCore/q23type_traits.h \
  /usr/include/qt6/QtCore/qstringbuilder.h \
  /usr/include/qt6/QtCore/qstringconverter.h \
  /usr/include/qt6/QtCore/qstringconverter_base.h \
@@ -290,7 +288,7 @@ CMakeFiles/rapidora.dir/src/pages/gamingpage.cpp.o: \
  /usr/include/c++/16/cassert /usr/include/qt6/QtCore/q20iterator.h \
  /usr/include/qt6/QtCore/qline.h /usr/include/qt6/QtGui/qpixmap.h \
  /usr/include/qt6/QtCore/qshareddata.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/gamingpage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/gamingpage.h \
  /usr/include/qt6/QtWidgets/QWizardPage \
  /usr/include/qt6/QtWidgets/qwizard.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -354,7 +352,7 @@ CMakeFiles/rapidora.dir/src/pages/gamingpage.cpp.o: \
  /usr/include/qt6/QtGui/qtextcursor.h \
  /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
  /usr/include/qt6/QtGui/qtextoption.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/../mainwizard.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/../mainwizard.h \
  /usr/include/qt6/QtWidgets/QWizard /usr/include/qt6/QtCore/QVariant \
  /usr/include/qt6/QtCore/qvariant.h /usr/include/qt6/QtCore/QTemporaryDir \
  /usr/include/qt6/QtCore/qtemporarydir.h /usr/include/qt6/QtCore/qdir.h \
@@ -379,16 +377,18 @@ CMakeFiles/rapidora.dir/src/pages/gamingpage.cpp.o: \
  /usr/include/c++/16/istream /usr/include/c++/16/ios \
  /usr/include/c++/16/bits/basic_ios.h \
  /usr/include/c++/16/bits/basic_ios.tcc /usr/include/c++/16/ostream \
- /usr/include/c++/16/bits/ostream.h /usr/include/c++/16/bits/ostream.tcc \
+ /usr/include/c++/16/bits/ostream.h \
+ /usr/include/c++/16/bits/ostream_print.h \
+ /usr/include/c++/16/bits/ostream.tcc \
  /usr/include/c++/16/bits/istream.tcc \
  /usr/include/c++/16/bits/sstream.tcc /usr/include/c++/16/codecvt \
  /usr/include/c++/16/bits/fs_dir.h /usr/include/c++/16/bits/fs_ops.h \
  /usr/include/qt6/QtCore/qfileinfo.h /usr/include/qt6/QtCore/qtimezone.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/../installworker.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/../installworker.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/QStringList \
  /usr/include/qt6/QtCore/qstringlist.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/../pagehelpers.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/../pagehelpers.h \
  /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
  /usr/include/qt6/QtWidgets/QHBoxLayout /usr/include/qt6/QtCore/QProcess \
  /usr/include/qt6/QtCore/qprocess.h /usr/include/qt6/QtCore/QString \

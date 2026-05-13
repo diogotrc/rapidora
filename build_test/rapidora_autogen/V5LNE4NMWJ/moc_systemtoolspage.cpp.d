@@ -1,5 +1,5 @@
-/home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_systemtoolspage.cpp: /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/systemtoolspage.h \
-  /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/moc_predefs.h \
+/home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_systemtoolspage.cpp: /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/systemtoolspage.h \
+  /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

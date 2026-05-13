@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/diogo/Documentos/Oppy Config/linuxutil/build_test/cmake_install.cmake"
+		"/home/diogo/Documentos/Oppy Config/rapidora/build_test/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

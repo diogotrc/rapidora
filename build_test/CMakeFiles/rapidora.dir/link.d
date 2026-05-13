@@ -18,16 +18,15 @@ rapidora: \
   CMakeFiles/rapidora.dir/src/pages/browserspage.cpp.o \
   CMakeFiles/rapidora.dir/src/pages/commspage.cpp.o \
   CMakeFiles/rapidora.dir/src/languagedialog.cpp.o \
-  CMakeFiles/rapidora.dir/src/pages/cachyospage.cpp.o \
   CMakeFiles/rapidora.dir/src/pages/reviewpage.cpp.o \
   CMakeFiles/rapidora.dir/src/pages/installpage.cpp.o \
   CMakeFiles/rapidora.dir/src/pages/donepage.cpp.o \
-  /usr/lib64/libQt6Widgets.so.6.10.2 \
-  /usr/lib64/libQt6Concurrent.so.6.10.2 \
-  /usr/lib64/libQt6Gui.so.6.10.2 \
+  /usr/lib64/libQt6Widgets.so.6.10.3 \
+  /usr/lib64/libQt6Concurrent.so.6.10.3 \
+  /usr/lib64/libQt6Gui.so.6.10.3 \
   /usr/lib64/libGLX.so \
   /usr/lib64/libOpenGL.so \
-  /usr/lib64/libQt6Core.so.6.10.2 \
+  /usr/lib64/libQt6Core.so.6.10.3 \
   /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/libm.so \
@@ -133,25 +132,23 @@ CMakeFiles/rapidora.dir/src/pages/commspage.cpp.o:
 
 CMakeFiles/rapidora.dir/src/languagedialog.cpp.o:
 
-CMakeFiles/rapidora.dir/src/pages/cachyospage.cpp.o:
-
 CMakeFiles/rapidora.dir/src/pages/reviewpage.cpp.o:
 
 CMakeFiles/rapidora.dir/src/pages/installpage.cpp.o:
 
 CMakeFiles/rapidora.dir/src/pages/donepage.cpp.o:
 
-/usr/lib64/libQt6Widgets.so.6.10.2:
+/usr/lib64/libQt6Widgets.so.6.10.3:
 
-/usr/lib64/libQt6Concurrent.so.6.10.2:
+/usr/lib64/libQt6Concurrent.so.6.10.3:
 
-/usr/lib64/libQt6Gui.so.6.10.2:
+/usr/lib64/libQt6Gui.so.6.10.3:
 
 /usr/lib64/libGLX.so:
 
 /usr/lib64/libOpenGL.so:
 
-/usr/lib64/libQt6Core.so.6.10.2:
+/usr/lib64/libQt6Core.so.6.10.3:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so:
 

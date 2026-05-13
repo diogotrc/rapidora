@@ -1,5 +1,5 @@
-/home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_donepage.cpp: /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/donepage.h \
-  /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/moc_predefs.h \
+/home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_donepage.cpp: /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/donepage.h \
+  /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -272,9 +272,11 @@
   /usr/include/pthread.h \
   /usr/include/qt6/QtCore/QList \
   /usr/include/qt6/QtCore/QObject \
+  /usr/include/qt6/QtCore/QPropertyAnimation \
   /usr/include/qt6/QtCore/QRect \
   /usr/include/qt6/QtCore/QSize \
   /usr/include/qt6/QtCore/QSizeF \
+  /usr/include/qt6/QtCore/QTimer \
   /usr/include/qt6/QtCore/q17memory.h \
   /usr/include/qt6/QtCore/q20functional.h \
   /usr/include/qt6/QtCore/q20iterator.h \
@@ -283,6 +285,7 @@
   /usr/include/qt6/QtCore/q20utility.h \
   /usr/include/qt6/QtCore/q23type_traits.h \
   /usr/include/qt6/QtCore/q23utility.h \
+  /usr/include/qt6/QtCore/qabstractanimation.h \
   /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
   /usr/include/qt6/QtCore/qalgorithms.h \
   /usr/include/qt6/QtCore/qalloc.h \
@@ -320,6 +323,7 @@
   /usr/include/qt6/QtCore/qdatastream.h \
   /usr/include/qt6/QtCore/qdeadlinetimer.h \
   /usr/include/qt6/QtCore/qdebug.h \
+  /usr/include/qt6/QtCore/qeasingcurve.h \
   /usr/include/qt6/QtCore/qendian.h \
   /usr/include/qt6/QtCore/qeventloop.h \
   /usr/include/qt6/QtCore/qexceptionhandling.h \
@@ -360,6 +364,7 @@
   /usr/include/qt6/QtCore/qpair.h \
   /usr/include/qt6/QtCore/qpoint.h \
   /usr/include/qt6/QtCore/qprocessordetection.h \
+  /usr/include/qt6/QtCore/qpropertyanimation.h \
   /usr/include/qt6/QtCore/qrect.h \
   /usr/include/qt6/QtCore/qrefcount.h \
   /usr/include/qt6/QtCore/qscopedpointer.h \
@@ -397,6 +402,7 @@
   /usr/include/qt6/QtCore/qtenvironmentvariables.h \
   /usr/include/qt6/QtCore/qtextstream.h \
   /usr/include/qt6/QtCore/qtformat_impl.h \
+  /usr/include/qt6/QtCore/qtimer.h \
   /usr/include/qt6/QtCore/qtmetamacros.h \
   /usr/include/qt6/QtCore/qtnoop.h \
   /usr/include/qt6/QtCore/qtpreprocessorsupport.h \
@@ -410,6 +416,7 @@
   /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtCore/qutf8stringview.h \
   /usr/include/qt6/QtCore/qvariant.h \
+  /usr/include/qt6/QtCore/qvariantanimation.h \
   /usr/include/qt6/QtCore/qvarlengtharray.h \
   /usr/include/qt6/QtCore/qversiontagging.h \
   /usr/include/qt6/QtCore/qxptype_traits.h \
@@ -462,15 +469,23 @@
   /usr/include/qt6/QtGui/qvector2d.h \
   /usr/include/qt6/QtGui/qvectornd.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
+  /usr/include/qt6/QtWidgets/QFrame \
+  /usr/include/qt6/QtWidgets/QGraphicsOpacityEffect \
   /usr/include/qt6/QtWidgets/QLabel \
   /usr/include/qt6/QtWidgets/QPlainTextEdit \
   /usr/include/qt6/QtWidgets/QPushButton \
+  /usr/include/qt6/QtWidgets/QVBoxLayout \
   /usr/include/qt6/QtWidgets/QWizardPage \
   /usr/include/qt6/QtWidgets/qabstractbutton.h \
   /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
+  /usr/include/qt6/QtWidgets/qboxlayout.h \
   /usr/include/qt6/QtWidgets/qdialog.h \
   /usr/include/qt6/QtWidgets/qframe.h \
+  /usr/include/qt6/QtWidgets/qgraphicseffect.h \
+  /usr/include/qt6/QtWidgets/qgridlayout.h \
   /usr/include/qt6/QtWidgets/qlabel.h \
+  /usr/include/qt6/QtWidgets/qlayout.h \
+  /usr/include/qt6/QtWidgets/qlayoutitem.h \
   /usr/include/qt6/QtWidgets/qplaintextedit.h \
   /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qsizepolicy.h \

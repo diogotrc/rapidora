@@ -1,5 +1,5 @@
 CMakeFiles/rapidora.dir/src/main.cpp.o: \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/main.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/qt6/QtWidgets/QApplication \
  /usr/include/qt6/QtWidgets/qapplication.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -86,8 +86,7 @@ CMakeFiles/rapidora.dir/src/main.cpp.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
- /usr/include/c++/16/bits/std_abs.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/16/bits/std_abs.h \
  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h \
  /usr/include/qt6/QtCore/qatomic.h /usr/include/qt6/QtCore/qbasicatomic.h \
@@ -183,7 +182,8 @@ CMakeFiles/rapidora.dir/src/main.cpp.o: \
  /usr/include/qt6/QtCore/qarraydatapointer.h \
  /usr/include/qt6/QtCore/qarraydataops.h \
  /usr/include/qt6/QtCore/qcontainertools_impl.h \
- /usr/include/qt6/QtCore/qxptype_traits.h /usr/include/c++/16/cstring \
+ /usr/include/qt6/QtCore/qxptype_traits.h \
+ /usr/include/qt6/QtCore/q23type_traits.h /usr/include/c++/16/cstring \
  /usr/include/c++/16/iterator /usr/include/c++/16/bits/stream_iterator.h \
  /usr/include/c++/16/iosfwd /usr/include/c++/16/bits/stringfwd.h \
  /usr/include/c++/16/bits/postypes.h /usr/include/c++/16/cwchar \
@@ -227,12 +227,11 @@ CMakeFiles/rapidora.dir/src/main.cpp.o: \
  /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
- /usr/include/c++/16/cerrno /usr/include/errno.h \
- /usr/include/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
- /usr/include/c++/16/bits/charconv.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/16/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h /usr/include/c++/16/bits/charconv.h \
  /usr/include/c++/16/bits/basic_string.tcc \
  /usr/include/c++/16/bits/locale_classes.tcc \
  /usr/include/c++/16/system_error \
@@ -259,7 +258,6 @@ CMakeFiles/rapidora.dir/src/main.cpp.o: \
  /usr/include/qt6/QtCore/qanystringview.h \
  /usr/include/qt6/QtCore/qutf8stringview.h \
  /usr/include/qt6/QtCore/qstringtokenizer.h \
- /usr/include/qt6/QtCore/q23type_traits.h \
  /usr/include/qt6/QtCore/qstringbuilder.h \
  /usr/include/qt6/QtCore/qstringconverter.h \
  /usr/include/qt6/QtCore/qstringconverter_base.h \
@@ -346,20 +344,13 @@ CMakeFiles/rapidora.dir/src/main.cpp.o: \
  /usr/include/qt6/QtGui/qfontvariableaxis.h \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtWidgets/qdialogbuttonbox.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/mainwizard.h \
- /usr/include/qt6/QtWidgets/QWizard /usr/include/qt6/QtWidgets/qwizard.h \
- /usr/include/qt6/QtCore/QMap /usr/include/qt6/QtCore/qmap.h \
- /usr/include/qt6/QtCore/QVariant /usr/include/qt6/QtCore/qvariant.h \
- /usr/include/qt6/QtCore/QTemporaryDir \
- /usr/include/qt6/QtCore/qtemporarydir.h /usr/include/qt6/QtCore/qdir.h \
- /usr/include/qt6/QtCore/qdirlisting.h \
+ /usr/include/qt6/QtCore/QFile /usr/include/qt6/QtCore/qfile.h \
  /usr/include/qt6/QtCore/qfiledevice.h \
- /usr/include/qt6/QtCore/qiodevice.h /usr/include/qt6/QtCore/qdatetime.h \
- /usr/include/qt6/QtCore/qcalendar.h /usr/include/qt6/QtCore/qfile.h \
- /usr/include/c++/16/filesystem /usr/include/c++/16/bits/fs_fwd.h \
- /usr/include/c++/16/bits/fs_path.h /usr/include/c++/16/locale \
- /usr/include/c++/16/bits/locale_facets.h /usr/include/c++/16/cwctype \
- /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
+ /usr/include/qt6/QtCore/qiodevice.h /usr/include/c++/16/filesystem \
+ /usr/include/c++/16/bits/fs_fwd.h /usr/include/c++/16/bits/fs_path.h \
+ /usr/include/c++/16/locale /usr/include/c++/16/bits/locale_facets.h \
+ /usr/include/c++/16/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/ctype_base.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/ctype_inline.h \
  /usr/include/c++/16/bits/locale_facets.tcc \
@@ -373,20 +364,36 @@ CMakeFiles/rapidora.dir/src/main.cpp.o: \
  /usr/include/c++/16/istream /usr/include/c++/16/ios \
  /usr/include/c++/16/bits/basic_ios.h \
  /usr/include/c++/16/bits/basic_ios.tcc /usr/include/c++/16/ostream \
- /usr/include/c++/16/bits/ostream.h /usr/include/c++/16/bits/ostream.tcc \
+ /usr/include/c++/16/bits/ostream.h \
+ /usr/include/c++/16/bits/ostream_print.h \
+ /usr/include/c++/16/bits/ostream.tcc \
  /usr/include/c++/16/bits/istream.tcc \
  /usr/include/c++/16/bits/sstream.tcc /usr/include/c++/16/codecvt \
  /usr/include/c++/16/bits/fs_dir.h /usr/include/c++/16/bits/fs_ops.h \
- /usr/include/qt6/QtCore/qfileinfo.h /usr/include/qt6/QtCore/qtimezone.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/installworker.h \
+ /usr/include/qt6/QtCore/QDir /usr/include/qt6/QtCore/qdir.h \
+ /usr/include/qt6/QtCore/qdirlisting.h \
+ /usr/include/qt6/QtCore/qdatetime.h /usr/include/qt6/QtCore/qcalendar.h \
+ /usr/include/qt6/QtCore/qfile.h /usr/include/qt6/QtCore/qfileinfo.h \
+ /usr/include/qt6/QtCore/qtimezone.h \
+ /usr/include/qt6/QtCore/QStandardPaths \
+ /usr/include/qt6/QtCore/qstandardpaths.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/mainwizard.h \
+ /usr/include/qt6/QtWidgets/QWizard /usr/include/qt6/QtWidgets/qwizard.h \
+ /usr/include/qt6/QtCore/QMap /usr/include/qt6/QtCore/qmap.h \
+ /usr/include/qt6/QtCore/QVariant /usr/include/qt6/QtCore/qvariant.h \
+ /usr/include/qt6/QtCore/QTemporaryDir \
+ /usr/include/qt6/QtCore/qtemporarydir.h /usr/include/qt6/QtCore/qdir.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/installworker.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/QStringList \
  /usr/include/qt6/QtCore/qstringlist.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/languagedialog.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/languagedialog.h \
  /usr/include/qt6/QtWidgets/QDialog /usr/include/qt6/QtWidgets/qdialog.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
- /usr/include/unistd.h /usr/include/bits/posix_opt.h \
- /usr/include/bits/environments.h /usr/include/bits/confname.h \
- /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
- /usr/include/bits/unistd_ext.h /usr/include/linux/close_range.h \
- /usr/include/pwd.h
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/translator.h \
+ /usr/include/qt6/QtCore/QTranslator \
+ /usr/include/qt6/QtCore/qtranslator.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/pwd.h

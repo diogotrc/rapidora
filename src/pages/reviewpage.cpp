@@ -197,7 +197,7 @@ void ReviewPage::initializePage()
             groups["gaming"].title = tr("Ecossistema Gaming"); groups["gaming"].icon = "input-gaming"; groups["gaming"].count++;
         } else if (id.startsWith("virt_") || id.startsWith("libvirt")) {
             groups["virt"].title = tr("Sub-virtualização"); groups["virt"].icon = "computer"; groups["virt"].count++;
-        } else if (id.startsWith("chrome") || id.startsWith("brave") || id.startsWith("firefox") || id.startsWith("vivaldi") || id.startsWith("librewolf")) {
+        } else if (id.startsWith("chrome") || id.startsWith("brave") || id.startsWith("vivaldi") || id.startsWith("librewolf")) {
             groups["web"].title = tr("Navegadores & Web"); groups["web"].icon = "web-browser"; groups["web"].count++;
         } else if (id.startsWith("flatpak_")) {
             groups["flatpak"].title = tr("Framework e Flatpaks"); groups["flatpak"].icon = "package-x-generic"; groups["flatpak"].count++;

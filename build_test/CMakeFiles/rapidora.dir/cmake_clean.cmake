@@ -15,8 +15,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/rapidora.dir/src/mainwizard.cpp.o.d"
   "CMakeFiles/rapidora.dir/src/pages/browserspage.cpp.o"
   "CMakeFiles/rapidora.dir/src/pages/browserspage.cpp.o.d"
-  "CMakeFiles/rapidora.dir/src/pages/cachyospage.cpp.o"
-  "CMakeFiles/rapidora.dir/src/pages/cachyospage.cpp.o.d"
   "CMakeFiles/rapidora.dir/src/pages/commspage.cpp.o"
   "CMakeFiles/rapidora.dir/src/pages/commspage.cpp.o.d"
   "CMakeFiles/rapidora.dir/src/pages/contentpage.cpp.o"

@@ -385,9 +385,10 @@ void DonePage::buildInstalledBadges(QVBoxLayout *targetLayout)
         m_wiz->getOpt("media/vlc").toBool()) {
         addBadge(tr("Multimídia & Codecs"), "🎬"); addedAny = true;
     }
-    if (m_wiz->getOpt("browsers/firefox").toBool()  ||
+    if (m_wiz->getOpt("browsers/chromium").toBool() ||
         m_wiz->getOpt("browsers/chrome").toBool()   ||
         m_wiz->getOpt("browsers/brave").toBool()    ||
+        m_wiz->getOpt("browsers/brave-nightly").toBool() ||
         m_wiz->getOpt("browsers/vivaldi").toBool()) {
         addBadge(tr("Navegadores"), "🌐"); addedAny = true;
     }

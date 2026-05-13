@@ -209,12 +209,12 @@ void BrowsersPage::initializePage()
     // ==========================================
     
     addSectionLabel(tr("From Fedora Repos"));
-    addToolCard(innerLayout, "firefox", tr("Mozilla Firefox"), tr("Navegador moderno de código aberto guiado à liberdade de dados. Ele já acompanha o Fedora Core por natureza."), false, "firefox");
     addToolCard(innerLayout, "chromium", tr("Chromium Base"), tr("Versão open source despida sem as telemetrias e bloqueios da Google. Nenhuma conta atrelada."), false, "chromium");
 
     addSectionLabel(tr("Third-Party (Repo added automatically)"));
     addToolCard(innerLayout, "chrome", tr("Google Chrome"), tr("Ecossistema pleno da Google. O Rapidora cuidará de injetar todas as chaves PGP seguras e criar o dnf.repo dinâmico no disco."), false, "google-chrome");
     addToolCard(innerLayout, "brave", tr("Brave Browser"), tr("Chrome com anabolizantes. Escudos fortes, bloqueio absoluto de anúncios, telemetrias e rastreadores desde o primeiro bip."), false, "brave-browser");
+    addToolCard(innerLayout, "brave-nightly", tr("Brave Origin Nightly"), tr("Versão Nightly do Brave com repositório origin."), false, "brave-browser");
     addToolCard(innerLayout, "vivaldi", tr("Vivaldi"), tr("Projetado para Power Users. Inúmeras funções densas de customização lateral e divisões de janelas baseadas em Chromium."), false, "vivaldi");
 
     addSectionLabel(tr("Privacy-focused (Flatpak from Flathub)"));
@@ -228,10 +228,10 @@ void BrowsersPage::initializePage()
     // Verificação Base
     // ==========================================
     QList<QPair<QString, std::function<bool()>>> _checks;
-    _checks.append({"firefox", []{ return isDnfInstalled("firefox"); }});
     _checks.append({"chromium", []{ return isDnfInstalled("chromium"); }});
     _checks.append({"chrome", []{ return isDnfInstalled("google-chrome-stable"); }});
     _checks.append({"brave", []{ return isDnfInstalled("brave-browser"); }});
+    _checks.append({"brave-nightly", []{ return isDnfInstalled("brave-origin-nightly"); }});
     _checks.append({"vivaldi",   []{ return isDnfInstalled("vivaldi-stable"); }});
     _checks.append({"librewolf", []{ return isFlatpakInstalled("io.gitlab.librewolf-community"); }});
     

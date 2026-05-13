@@ -5,8 +5,8 @@ tst_installworker: \
   CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o \
   CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o \
   CMakeFiles/tst_installworker.dir/src/installworker.cpp.o \
-  /usr/lib64/libQt6Test.so.6.10.2 \
-  /usr/lib64/libQt6Core.so.6.10.2 \
+  /usr/lib64/libQt6Test.so.6.10.3 \
+  /usr/lib64/libQt6Core.so.6.10.3 \
   /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/libm.so \
@@ -67,9 +67,9 @@ CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o:
 
 CMakeFiles/tst_installworker.dir/src/installworker.cpp.o:
 
-/usr/lib64/libQt6Test.so.6.10.2:
+/usr/lib64/libQt6Test.so.6.10.3:
 
-/usr/lib64/libQt6Core.so.6.10.2:
+/usr/lib64/libQt6Core.so.6.10.3:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so:
 

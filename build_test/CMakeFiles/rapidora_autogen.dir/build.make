@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/diogo/Documentos/Oppy Config/linuxutil"
+CMAKE_SOURCE_DIR = "/home/diogo/Documentos/Oppy Config/rapidora"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/diogo/Documentos/Oppy Config/linuxutil/build_test"
+CMAKE_BINARY_DIR = "/home/diogo/Documentos/Oppy Config/rapidora/build_test"
 
 # Utility rule file for rapidora_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/rapidora_autogen: rapidora_autogen/timestamp
 
 rapidora_autogen/timestamp: /usr/lib64/qt6/libexec/moc
 rapidora_autogen/timestamp: CMakeFiles/rapidora_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target rapidora"
-	/usr/bin/cmake -E cmake_autogen "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/rapidora_autogen.dir/AutogenInfo.json" Release
-	/usr/bin/cmake -E touch "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/rapidora_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target rapidora"
+	/usr/bin/cmake -E cmake_autogen "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/rapidora_autogen.dir/AutogenInfo.json" ""
+	/usr/bin/cmake -E touch "/home/diogo/Documentos/Oppy Config/rapidora/build_test/rapidora_autogen/timestamp"
 
 CMakeFiles/rapidora_autogen.dir/codegen:
 .PHONY : CMakeFiles/rapidora_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/rapidora_autogen.dir/clean:
 .PHONY : CMakeFiles/rapidora_autogen.dir/clean
 
 CMakeFiles/rapidora_autogen.dir/depend:
-	cd "/home/diogo/Documentos/Oppy Config/linuxutil/build_test" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/diogo/Documentos/Oppy Config/linuxutil" "/home/diogo/Documentos/Oppy Config/linuxutil" "/home/diogo/Documentos/Oppy Config/linuxutil/build_test" "/home/diogo/Documentos/Oppy Config/linuxutil/build_test" "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/rapidora_autogen.dir/DependInfo.cmake" "--color=$(COLOR)" rapidora_autogen
+	cd "/home/diogo/Documentos/Oppy Config/rapidora/build_test" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/diogo/Documentos/Oppy Config/rapidora" "/home/diogo/Documentos/Oppy Config/rapidora" "/home/diogo/Documentos/Oppy Config/rapidora/build_test" "/home/diogo/Documentos/Oppy Config/rapidora/build_test" "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/rapidora_autogen.dir/DependInfo.cmake" "--color=$(COLOR)" rapidora_autogen
 .PHONY : CMakeFiles/rapidora_autogen.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/diogo/Documentos/Oppy Config/linuxutil"
+CMAKE_SOURCE_DIR = "/home/diogo/Documentos/Oppy Config/rapidora"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/diogo/Documentos/Oppy Config/linuxutil/build_test"
+CMAKE_BINARY_DIR = "/home/diogo/Documentos/Oppy Config/rapidora/build_test"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tst_installworker.dir/depend.make
@@ -71,9 +71,9 @@ include CMakeFiles/tst_installworker.dir/flags.make
 
 tst_installworker_autogen/timestamp: /usr/lib64/qt6/libexec/moc
 tst_installworker_autogen/timestamp: CMakeFiles/tst_installworker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target tst_installworker"
-	/usr/bin/cmake -E cmake_autogen "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/tst_installworker_autogen.dir/AutogenInfo.json" Release
-	/usr/bin/cmake -E touch "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/tst_installworker_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target tst_installworker"
+	/usr/bin/cmake -E cmake_autogen "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/tst_installworker_autogen.dir/AutogenInfo.json" ""
+	/usr/bin/cmake -E touch "/home/diogo/Documentos/Oppy Config/rapidora/build_test/tst_installworker_autogen/timestamp"
 
 CMakeFiles/tst_installworker.dir/codegen:
 .PHONY : CMakeFiles/tst_installworker.dir/codegen
@@ -81,44 +81,44 @@ CMakeFiles/tst_installworker.dir/codegen:
 CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o: CMakeFiles/tst_installworker.dir/flags.make
 CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o: tst_installworker_autogen/mocs_compilation.cpp
 CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o: CMakeFiles/tst_installworker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o -MF CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o -c "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/tst_installworker_autogen/mocs_compilation.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o -MF CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.o -c "/home/diogo/Documentos/Oppy Config/rapidora/build_test/tst_installworker_autogen/mocs_compilation.cpp"
 
 CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/tst_installworker_autogen/mocs_compilation.cpp" > CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/diogo/Documentos/Oppy Config/rapidora/build_test/tst_installworker_autogen/mocs_compilation.cpp" > CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/tst_installworker_autogen/mocs_compilation.cpp" -o CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/diogo/Documentos/Oppy Config/rapidora/build_test/tst_installworker_autogen/mocs_compilation.cpp" -o CMakeFiles/tst_installworker.dir/tst_installworker_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o: CMakeFiles/tst_installworker.dir/flags.make
-CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o: /home/diogo/Documentos/Oppy\ Config/linuxutil/tests/tst_installworker.cpp
+CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o: /home/diogo/Documentos/Oppy\ Config/rapidora/tests/tst_installworker.cpp
 CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o: CMakeFiles/tst_installworker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o -MF CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o.d -o CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o -c "/home/diogo/Documentos/Oppy Config/linuxutil/tests/tst_installworker.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o -MF CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o.d -o CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.o -c "/home/diogo/Documentos/Oppy Config/rapidora/tests/tst_installworker.cpp"
 
 CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/diogo/Documentos/Oppy Config/linuxutil/tests/tst_installworker.cpp" > CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/diogo/Documentos/Oppy Config/rapidora/tests/tst_installworker.cpp" > CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.i
 
 CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/diogo/Documentos/Oppy Config/linuxutil/tests/tst_installworker.cpp" -o CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/diogo/Documentos/Oppy Config/rapidora/tests/tst_installworker.cpp" -o CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.s
 
 CMakeFiles/tst_installworker.dir/src/installworker.cpp.o: CMakeFiles/tst_installworker.dir/flags.make
-CMakeFiles/tst_installworker.dir/src/installworker.cpp.o: /home/diogo/Documentos/Oppy\ Config/linuxutil/src/installworker.cpp
+CMakeFiles/tst_installworker.dir/src/installworker.cpp.o: /home/diogo/Documentos/Oppy\ Config/rapidora/src/installworker.cpp
 CMakeFiles/tst_installworker.dir/src/installworker.cpp.o: CMakeFiles/tst_installworker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tst_installworker.dir/src/installworker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tst_installworker.dir/src/installworker.cpp.o -MF CMakeFiles/tst_installworker.dir/src/installworker.cpp.o.d -o CMakeFiles/tst_installworker.dir/src/installworker.cpp.o -c "/home/diogo/Documentos/Oppy Config/linuxutil/src/installworker.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tst_installworker.dir/src/installworker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tst_installworker.dir/src/installworker.cpp.o -MF CMakeFiles/tst_installworker.dir/src/installworker.cpp.o.d -o CMakeFiles/tst_installworker.dir/src/installworker.cpp.o -c "/home/diogo/Documentos/Oppy Config/rapidora/src/installworker.cpp"
 
 CMakeFiles/tst_installworker.dir/src/installworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tst_installworker.dir/src/installworker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/diogo/Documentos/Oppy Config/linuxutil/src/installworker.cpp" > CMakeFiles/tst_installworker.dir/src/installworker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/diogo/Documentos/Oppy Config/rapidora/src/installworker.cpp" > CMakeFiles/tst_installworker.dir/src/installworker.cpp.i
 
 CMakeFiles/tst_installworker.dir/src/installworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tst_installworker.dir/src/installworker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/diogo/Documentos/Oppy Config/linuxutil/src/installworker.cpp" -o CMakeFiles/tst_installworker.dir/src/installworker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/diogo/Documentos/Oppy Config/rapidora/src/installworker.cpp" -o CMakeFiles/tst_installworker.dir/src/installworker.cpp.s
 
 # Object files for target tst_installworker
 tst_installworker_OBJECTS = \
@@ -134,10 +134,10 @@ tst_installworker: CMakeFiles/tst_installworker.dir/tests/tst_installworker.cpp.
 tst_installworker: CMakeFiles/tst_installworker.dir/src/installworker.cpp.o
 tst_installworker: CMakeFiles/tst_installworker.dir/build.make
 tst_installworker: CMakeFiles/tst_installworker.dir/compiler_depend.ts
-tst_installworker: /usr/lib64/libQt6Test.so.6.10.2
-tst_installworker: /usr/lib64/libQt6Core.so.6.10.2
+tst_installworker: /usr/lib64/libQt6Test.so.6.10.3
+tst_installworker: /usr/lib64/libQt6Core.so.6.10.3
 tst_installworker: CMakeFiles/tst_installworker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable tst_installworker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable tst_installworker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tst_installworker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -149,6 +149,6 @@ CMakeFiles/tst_installworker.dir/clean:
 .PHONY : CMakeFiles/tst_installworker.dir/clean
 
 CMakeFiles/tst_installworker.dir/depend: tst_installworker_autogen/timestamp
-	cd "/home/diogo/Documentos/Oppy Config/linuxutil/build_test" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/diogo/Documentos/Oppy Config/linuxutil" "/home/diogo/Documentos/Oppy Config/linuxutil" "/home/diogo/Documentos/Oppy Config/linuxutil/build_test" "/home/diogo/Documentos/Oppy Config/linuxutil/build_test" "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/tst_installworker.dir/DependInfo.cmake" "--color=$(COLOR)" tst_installworker
+	cd "/home/diogo/Documentos/Oppy Config/rapidora/build_test" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/diogo/Documentos/Oppy Config/rapidora" "/home/diogo/Documentos/Oppy Config/rapidora" "/home/diogo/Documentos/Oppy Config/rapidora/build_test" "/home/diogo/Documentos/Oppy Config/rapidora/build_test" "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/tst_installworker.dir/DependInfo.cmake" "--color=$(COLOR)" tst_installworker
 .PHONY : CMakeFiles/tst_installworker.dir/depend
 

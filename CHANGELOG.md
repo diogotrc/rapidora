@@ -1,5 +1,11 @@
 ---
 
+## [1.0.8] - 2026-05-12
+
+### Added
+- **Navegador Principal** — Substituição do Mozilla Firefox pelo Brave Origin Nightly como opção principal de instalação na página de navegadores.
+- **Identidade Visual** — Atualização do ícone oficial do aplicativo.
+
 ## [1.0.6] - 2026-04-04
 
 ### Added

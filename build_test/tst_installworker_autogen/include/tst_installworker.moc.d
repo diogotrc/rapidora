@@ -1,6 +1,6 @@
-/home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/tst_installworker_autogen/include/tst_installworker.moc: /home/diogo/Documentos/Oppy\ Config/linuxutil/tests/tst_installworker.cpp \
-  /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/tst_installworker_autogen/moc_predefs.h \
-  /home/diogo/Documentos/Oppy\ Config/linuxutil/src/installworker.h \
+/home/diogo/Documentos/Oppy\ Config/rapidora/build_test/tst_installworker_autogen/include/tst_installworker.moc: /home/diogo/Documentos/Oppy\ Config/rapidora/tests/tst_installworker.cpp \
+  /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/tst_installworker_autogen/moc_predefs.h \
+  /home/diogo/Documentos/Oppy\ Config/rapidora/src/installworker.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

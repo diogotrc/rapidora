@@ -1,7 +1,7 @@
 CMakeFiles/rapidora.dir/src/mainwizard.cpp.o: \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/mainwizard.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/mainwizard.cpp \
  /usr/include/stdc-predef.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/mainwizard.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/mainwizard.h \
  /usr/include/qt6/QtWidgets/QWizard /usr/include/qt6/QtWidgets/qwizard.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt6/QtGui/qtguiglobal.h /usr/include/qt6/QtCore/qglobal.h \
@@ -87,8 +87,7 @@ CMakeFiles/rapidora.dir/src/mainwizard.cpp.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
- /usr/include/c++/16/bits/std_abs.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/16/bits/std_abs.h \
  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h \
  /usr/include/qt6/QtCore/qatomic.h /usr/include/qt6/QtCore/qbasicatomic.h \
@@ -221,7 +220,8 @@ CMakeFiles/rapidora.dir/src/mainwizard.cpp.o: \
  /usr/include/qt6/QtCore/qarraydatapointer.h \
  /usr/include/qt6/QtCore/qarraydataops.h \
  /usr/include/qt6/QtCore/qcontainertools_impl.h \
- /usr/include/qt6/QtCore/qxptype_traits.h /usr/include/c++/16/cstring \
+ /usr/include/qt6/QtCore/qxptype_traits.h \
+ /usr/include/qt6/QtCore/q23type_traits.h /usr/include/c++/16/cstring \
  /usr/include/c++/16/iterator /usr/include/c++/16/bits/stream_iterator.h \
  /usr/include/c++/16/bits/streambuf_iterator.h \
  /usr/include/c++/16/streambuf /usr/include/c++/16/bits/localefwd.h \
@@ -240,12 +240,11 @@ CMakeFiles/rapidora.dir/src/mainwizard.cpp.o: \
  /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
- /usr/include/c++/16/cerrno /usr/include/errno.h \
- /usr/include/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
- /usr/include/c++/16/bits/charconv.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/16/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h /usr/include/c++/16/bits/charconv.h \
  /usr/include/c++/16/bits/basic_string.tcc \
  /usr/include/c++/16/bits/locale_classes.tcc \
  /usr/include/c++/16/system_error \
@@ -263,7 +262,6 @@ CMakeFiles/rapidora.dir/src/mainwizard.cpp.o: \
  /usr/include/qt6/QtCore/qanystringview.h \
  /usr/include/qt6/QtCore/qutf8stringview.h \
  /usr/include/qt6/QtCore/qstringtokenizer.h \
- /usr/include/qt6/QtCore/q23type_traits.h \
  /usr/include/qt6/QtCore/qstringbuilder.h \
  /usr/include/qt6/QtCore/qstringconverter.h \
  /usr/include/qt6/QtCore/qstringconverter_base.h \
@@ -357,19 +355,21 @@ CMakeFiles/rapidora.dir/src/mainwizard.cpp.o: \
  /usr/include/c++/16/istream /usr/include/c++/16/ios \
  /usr/include/c++/16/bits/basic_ios.h \
  /usr/include/c++/16/bits/basic_ios.tcc /usr/include/c++/16/ostream \
- /usr/include/c++/16/bits/ostream.h /usr/include/c++/16/bits/ostream.tcc \
+ /usr/include/c++/16/bits/ostream.h \
+ /usr/include/c++/16/bits/ostream_print.h \
+ /usr/include/c++/16/bits/ostream.tcc \
  /usr/include/c++/16/bits/istream.tcc \
  /usr/include/c++/16/bits/sstream.tcc /usr/include/c++/16/codecvt \
  /usr/include/c++/16/bits/fs_dir.h /usr/include/c++/16/bits/fs_ops.h \
  /usr/include/qt6/QtCore/qfileinfo.h /usr/include/qt6/QtCore/qtimezone.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/installworker.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/installworker.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/QStringList \
  /usr/include/qt6/QtCore/qstringlist.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/welcomepage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/welcomepage.h \
  /usr/include/qt6/QtWidgets/QWizardPage /usr/include/qt6/QtWidgets/QFrame \
  /usr/include/qt6/QtWidgets/qframe.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/updatepage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/updatepage.h \
  /usr/include/qt6/QtWidgets/QPlainTextEdit \
  /usr/include/qt6/QtWidgets/qplaintextedit.h \
  /usr/include/qt6/QtWidgets/qtextedit.h \
@@ -412,34 +412,33 @@ CMakeFiles/rapidora.dir/src/mainwizard.cpp.o: \
  /usr/include/qt6/QtCore/QProcess /usr/include/qt6/QtCore/qprocess.h \
  /usr/include/qt6/QtWidgets/QProgressBar \
  /usr/include/qt6/QtWidgets/qprogressbar.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/repospage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/repospage.h \
  /usr/include/qt6/QtWidgets/QCheckBox \
  /usr/include/qt6/QtWidgets/qcheckbox.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/systemtoolspage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/systemtoolspage.h \
  /usr/include/qt6/QtWidgets/QVBoxLayout \
  /usr/include/qt6/QtWidgets/qboxlayout.h \
  /usr/include/qt6/QtWidgets/qlayout.h \
  /usr/include/qt6/QtWidgets/qlayoutitem.h \
  /usr/include/qt6/QtWidgets/qboxlayout.h \
  /usr/include/qt6/QtWidgets/qgridlayout.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/multimediapage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/contentpage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/gpupage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/multimediapage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/contentpage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/gpupage.h \
  /usr/include/qt6/QtWidgets/QButtonGroup \
  /usr/include/qt6/QtWidgets/qbuttongroup.h \
  /usr/include/qt6/QtWidgets/QHBoxLayout \
  /usr/include/qt6/QtGui/QMouseEvent /usr/include/qt6/QtGui/qevent.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/gamingpage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/gamingpage.h \
  /usr/include/qt6/QtWidgets/QGridLayout \
  /usr/include/qt6/QtWidgets/qgridlayout.h \
  /usr/include/qt6/QtWidgets/QLineEdit \
  /usr/include/qt6/QtWidgets/qlineedit.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/virtpage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/browserspage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/commspage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/cachyospage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/reviewpage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/installpage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/virtpage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/browserspage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/commspage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/reviewpage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/installpage.h \
  /usr/include/qt6/QtWidgets/QListWidget \
  /usr/include/qt6/QtWidgets/qlistwidget.h \
  /usr/include/qt6/QtWidgets/qlistview.h \
@@ -465,10 +464,18 @@ CMakeFiles/rapidora.dir/src/mainwizard.cpp.o: \
  /usr/include/qt6/QtWidgets/QSplitter \
  /usr/include/qt6/QtWidgets/qsplitter.h /usr/include/qt6/QtCore/QEvent \
  /usr/include/qt6/QtCore/qcoreevent.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pages/donepage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pages/donepage.h \
+ /usr/include/qt6/QtCore/QTimer /usr/include/qt6/QtCore/qtimer.h \
+ /usr/include/qt6/QtCore/QPropertyAnimation \
+ /usr/include/qt6/QtCore/qpropertyanimation.h \
+ /usr/include/qt6/QtCore/qvariantanimation.h \
+ /usr/include/qt6/QtCore/qabstractanimation.h \
+ /usr/include/qt6/QtCore/qeasingcurve.h \
+ /usr/include/qt6/QtWidgets/QGraphicsOpacityEffect \
+ /usr/include/qt6/QtWidgets/qgraphicseffect.h \
  /usr/include/qt6/QtCore/QRegularExpression \
  /usr/include/qt6/QtCore/qregularexpression.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/src/pagehelpers.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/src/pagehelpers.h \
  /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
  /usr/include/qt6/QtWidgets/QSizePolicy \
@@ -511,7 +518,6 @@ CMakeFiles/rapidora.dir/src/mainwizard.cpp.o: \
  /usr/include/qt6/QtCore/qabstractproxymodel.h \
  /usr/include/qt6/QtCore/qalgorithms.h /usr/include/qt6/QtCore/qalloc.h \
  /usr/include/qt6/QtCore/qanimationgroup.h \
- /usr/include/qt6/QtCore/qabstractanimation.h \
  /usr/include/qt6/QtCore/qanystringview.h \
  /usr/include/qt6/QtCore/qapplicationstatic.h \
  /usr/include/qt6/QtCore/QMutex /usr/include/qt6/QtCore/qarraydata.h \
@@ -632,9 +638,6 @@ CMakeFiles/rapidora.dir/src/mainwizard.cpp.o: \
  /usr/include/qt6/QtCore/qpoint.h \
  /usr/include/qt6/QtCore/qprocessordetection.h \
  /usr/include/qt6/QtCore/qpromise.h /usr/include/qt6/QtCore/qproperty.h \
- /usr/include/qt6/QtCore/qpropertyanimation.h \
- /usr/include/qt6/QtCore/qvariantanimation.h \
- /usr/include/qt6/QtCore/qeasingcurve.h \
  /usr/include/qt6/QtCore/qpropertyprivate.h \
  /usr/include/qt6/QtCore/qqueue.h /usr/include/qt6/QtCore/qrandom.h \
  /usr/include/c++/16/random /usr/include/c++/16/bits/random.h \
@@ -800,8 +803,7 @@ CMakeFiles/rapidora.dir/src/mainwizard.cpp.o: \
  /usr/include/qt6/QtCore/qtextstream.h \
  /usr/include/qt6/QtCore/qthreadpool.h \
  /usr/include/qt6/QtCore/qthreadstorage.h \
- /usr/include/qt6/QtCore/qtimeline.h /usr/include/qt6/QtCore/qtimer.h \
- /usr/include/qt6/QtCore/qtimezone.h \
+ /usr/include/qt6/QtCore/qtimeline.h /usr/include/qt6/QtCore/qtimezone.h \
  /usr/include/qt6/QtCore/qtipccommon.h \
  /usr/include/qt6/QtCore/qtmetamacros.h \
  /usr/include/qt6/QtCore/qtmocconstants.h \

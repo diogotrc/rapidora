@@ -1,6 +1,6 @@
-/home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/UVLADIE3JM/moc_mainwizard.cpp: /home/diogo/Documentos/Oppy\ Config/linuxutil/src/mainwizard.h \
-  /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/moc_predefs.h \
-  /home/diogo/Documentos/Oppy\ Config/linuxutil/src/installworker.h \
+/home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/UVLADIE3JM/moc_mainwizard.cpp: /home/diogo/Documentos/Oppy\ Config/rapidora/src/mainwizard.h \
+  /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/moc_predefs.h \
+  /home/diogo/Documentos/Oppy\ Config/rapidora/src/installworker.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

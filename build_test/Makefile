@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/diogo/Documentos/Oppy Config/linuxutil"
+CMAKE_SOURCE_DIR = "/home/diogo/Documentos/Oppy Config/rapidora"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/diogo/Documentos/Oppy Config/linuxutil/build_test"
+CMAKE_BINARY_DIR = "/home/diogo/Documentos/Oppy Config/rapidora/build_test"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles" "/home/diogo/Documentos/Oppy Config/linuxutil/build_test//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles" "/home/diogo/Documentos/Oppy Config/rapidora/build_test//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -395,30 +395,6 @@ src/pages/browserspage.s: src/pages/browserspage.cpp.s
 src/pages/browserspage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rapidora.dir/build.make CMakeFiles/rapidora.dir/src/pages/browserspage.cpp.s
 .PHONY : src/pages/browserspage.cpp.s
-
-src/pages/cachyospage.o: src/pages/cachyospage.cpp.o
-.PHONY : src/pages/cachyospage.o
-
-# target to build an object file
-src/pages/cachyospage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rapidora.dir/build.make CMakeFiles/rapidora.dir/src/pages/cachyospage.cpp.o
-.PHONY : src/pages/cachyospage.cpp.o
-
-src/pages/cachyospage.i: src/pages/cachyospage.cpp.i
-.PHONY : src/pages/cachyospage.i
-
-# target to preprocess a source file
-src/pages/cachyospage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rapidora.dir/build.make CMakeFiles/rapidora.dir/src/pages/cachyospage.cpp.i
-.PHONY : src/pages/cachyospage.cpp.i
-
-src/pages/cachyospage.s: src/pages/cachyospage.cpp.s
-.PHONY : src/pages/cachyospage.s
-
-# target to generate assembly for a file
-src/pages/cachyospage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rapidora.dir/build.make CMakeFiles/rapidora.dir/src/pages/cachyospage.cpp.s
-.PHONY : src/pages/cachyospage.cpp.s
 
 src/pages/commspage.o: src/pages/commspage.cpp.o
 .PHONY : src/pages/commspage.o
@@ -817,9 +793,6 @@ help:
 	@echo "... src/pages/browserspage.o"
 	@echo "... src/pages/browserspage.i"
 	@echo "... src/pages/browserspage.s"
-	@echo "... src/pages/cachyospage.o"
-	@echo "... src/pages/cachyospage.i"
-	@echo "... src/pages/cachyospage.s"
 	@echo "... src/pages/commspage.o"
 	@echo "... src/pages/commspage.i"
 	@echo "... src/pages/commspage.s"

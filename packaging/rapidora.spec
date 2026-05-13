@@ -1,5 +1,5 @@
 Name:           rapidora
-Version:        1.0.7
+Version:        1.0.8
 Release:        1%{?dist}
 Summary:        Guided setup wizard for Fedora — gaming, content creation, and development
 
@@ -116,6 +116,10 @@ fi
 %{_datadir}/rapidora/style.qss
 
 %changelog
+* Tue May 12 2026 Diogo Travassos <diogo@rapidora> - 1.0.8-1
+- Substitui Mozilla Firefox pelo Brave Origin Nightly como navegador principal
+- Atualização do ícone oficial da aplicação
+
 * Fri Apr 04 2026 Diogo Travassos <diogo@rapidora> - 1.0.7-1
 - Bump version to 1.0.7 para garantir o gatilho de atualização do DNF
 - Resolução definitiva do bug de path de ícone (fallback p/ generic hicolor "rapidora")

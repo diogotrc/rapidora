@@ -1,8 +1,8 @@
 CMakeFiles/rapidora.dir/rapidora_autogen/mocs_compilation.cpp.o: \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/mocs_compilation.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/UVLADIE3JM/moc_installworker.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/UVLADIE3JM/../../../src/installworker.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/UVLADIE3JM/moc_installworker.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/UVLADIE3JM/../../../src/installworker.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qglobal.h \
@@ -88,8 +88,7 @@ CMakeFiles/rapidora.dir/rapidora_autogen/mocs_compilation.cpp.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
- /usr/include/c++/16/bits/std_abs.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/16/bits/std_abs.h \
  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h \
  /usr/include/qt6/QtCore/qatomic.h /usr/include/qt6/QtCore/qbasicatomic.h \
@@ -214,7 +213,8 @@ CMakeFiles/rapidora.dir/rapidora_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtCore/qarraydatapointer.h \
  /usr/include/qt6/QtCore/qarraydataops.h \
  /usr/include/qt6/QtCore/qcontainertools_impl.h \
- /usr/include/qt6/QtCore/qxptype_traits.h /usr/include/c++/16/cstring \
+ /usr/include/qt6/QtCore/qxptype_traits.h \
+ /usr/include/qt6/QtCore/q23type_traits.h /usr/include/c++/16/cstring \
  /usr/include/c++/16/iterator /usr/include/c++/16/bits/stream_iterator.h \
  /usr/include/c++/16/bits/streambuf_iterator.h \
  /usr/include/c++/16/streambuf /usr/include/c++/16/bits/localefwd.h \
@@ -233,12 +233,11 @@ CMakeFiles/rapidora.dir/rapidora_autogen/mocs_compilation.cpp.o: \
  /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
- /usr/include/c++/16/cerrno /usr/include/errno.h \
- /usr/include/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
- /usr/include/c++/16/bits/charconv.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/16/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h /usr/include/c++/16/bits/charconv.h \
  /usr/include/c++/16/bits/basic_string.tcc \
  /usr/include/c++/16/bits/locale_classes.tcc \
  /usr/include/c++/16/system_error \
@@ -256,7 +255,6 @@ CMakeFiles/rapidora.dir/rapidora_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtCore/qanystringview.h \
  /usr/include/qt6/QtCore/qutf8stringview.h \
  /usr/include/qt6/QtCore/qstringtokenizer.h \
- /usr/include/qt6/QtCore/q23type_traits.h \
  /usr/include/qt6/QtCore/qstringbuilder.h \
  /usr/include/qt6/QtCore/qstringconverter.h \
  /usr/include/qt6/QtCore/qstringconverter_base.h \
@@ -291,8 +289,8 @@ CMakeFiles/rapidora.dir/rapidora_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtCore/qtmochelpers.h \
  /usr/include/qt6/QtCore/qtmocconstants.h \
  /usr/include/qt6/QtCore/q20algorithm.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/UVLADIE3JM/moc_languagedialog.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/UVLADIE3JM/../../../src/languagedialog.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/UVLADIE3JM/moc_languagedialog.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/UVLADIE3JM/../../../src/languagedialog.h \
  /usr/include/qt6/QtWidgets/QDialog /usr/include/qt6/QtWidgets/qdialog.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt6/QtGui/qtguiglobal.h \
@@ -341,8 +339,8 @@ CMakeFiles/rapidora.dir/rapidora_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/UVLADIE3JM/moc_mainwizard.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/UVLADIE3JM/../../../src/mainwizard.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/UVLADIE3JM/moc_mainwizard.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/UVLADIE3JM/../../../src/mainwizard.h \
  /usr/include/qt6/QtWidgets/QWizard /usr/include/qt6/QtWidgets/qwizard.h \
  /usr/include/qt6/QtWidgets/qdialog.h /usr/include/qt6/QtCore/QMap \
  /usr/include/qt6/QtCore/qmap.h /usr/include/qt6/QtCore/QVariant \
@@ -370,13 +368,15 @@ CMakeFiles/rapidora.dir/rapidora_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/16/istream /usr/include/c++/16/ios \
  /usr/include/c++/16/bits/basic_ios.h \
  /usr/include/c++/16/bits/basic_ios.tcc /usr/include/c++/16/ostream \
- /usr/include/c++/16/bits/ostream.h /usr/include/c++/16/bits/ostream.tcc \
+ /usr/include/c++/16/bits/ostream.h \
+ /usr/include/c++/16/bits/ostream_print.h \
+ /usr/include/c++/16/bits/ostream.tcc \
  /usr/include/c++/16/bits/istream.tcc \
  /usr/include/c++/16/bits/sstream.tcc /usr/include/c++/16/codecvt \
  /usr/include/c++/16/bits/fs_dir.h /usr/include/c++/16/bits/fs_ops.h \
  /usr/include/qt6/QtCore/qfileinfo.h /usr/include/qt6/QtCore/qtimezone.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_browserspage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/browserspage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_browserspage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/browserspage.h \
  /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
  /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtGui/qpicture.h \
  /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h \
@@ -393,16 +393,17 @@ CMakeFiles/rapidora.dir/rapidora_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtGui/qtextcursor.h \
  /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
  /usr/include/qt6/QtGui/qtextoption.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_cachyospage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/cachyospage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_commspage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/commspage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_commspage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/commspage.h \
  /usr/include/qt6/QtWidgets/QGridLayout \
  /usr/include/qt6/QtWidgets/qgridlayout.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_contentpage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/contentpage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_donepage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/donepage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_contentpage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/contentpage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_donepage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/donepage.h \
+ /usr/include/qt6/QtWidgets/QFrame /usr/include/qt6/QtWidgets/qframe.h \
+ /usr/include/qt6/QtWidgets/QPushButton \
+ /usr/include/qt6/QtWidgets/qpushbutton.h \
  /usr/include/qt6/QtWidgets/QPlainTextEdit \
  /usr/include/qt6/QtWidgets/qplaintextedit.h \
  /usr/include/qt6/QtWidgets/qtextedit.h \
@@ -431,23 +432,28 @@ CMakeFiles/rapidora.dir/rapidora_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtGui/qinputmethod.h \
  /usr/include/qt6/QtGui/qguiapplication_platform.h \
  /usr/include/qt6/QtGui/qglyphrun.h /usr/include/qt6/QtGui/qrawfont.h \
- /usr/include/qt6/QtGui/qfontdatabase.h \
- /usr/include/qt6/QtWidgets/QPushButton \
- /usr/include/qt6/QtWidgets/qpushbutton.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_gamingpage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/gamingpage.h \
- /usr/include/qt6/QtWidgets/QFrame /usr/include/qt6/QtWidgets/qframe.h \
+ /usr/include/qt6/QtGui/qfontdatabase.h /usr/include/qt6/QtCore/QTimer \
+ /usr/include/qt6/QtCore/qtimer.h \
+ /usr/include/qt6/QtCore/QPropertyAnimation \
+ /usr/include/qt6/QtCore/qpropertyanimation.h \
+ /usr/include/qt6/QtCore/qvariantanimation.h \
+ /usr/include/qt6/QtCore/qabstractanimation.h \
+ /usr/include/qt6/QtCore/qeasingcurve.h \
+ /usr/include/qt6/QtWidgets/QGraphicsOpacityEffect \
+ /usr/include/qt6/QtWidgets/qgraphicseffect.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_gamingpage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/gamingpage.h \
  /usr/include/qt6/QtWidgets/QLineEdit \
  /usr/include/qt6/QtWidgets/qlineedit.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_gpupage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/gpupage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_gpupage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/gpupage.h \
  /usr/include/qt6/QtWidgets/QButtonGroup \
  /usr/include/qt6/QtWidgets/qbuttongroup.h \
  /usr/include/qt6/QtWidgets/QHBoxLayout /usr/include/qt6/QtCore/QProcess \
  /usr/include/qt6/QtCore/qprocess.h /usr/include/qt6/QtGui/QMouseEvent \
  /usr/include/qt6/QtGui/qevent.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_installpage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/installpage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_installpage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/installpage.h \
  /usr/include/qt6/QtWidgets/QListWidget \
  /usr/include/qt6/QtWidgets/qlistwidget.h \
  /usr/include/qt6/QtWidgets/qlistview.h \
@@ -476,17 +482,17 @@ CMakeFiles/rapidora.dir/rapidora_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtCore/qpointer.h /usr/include/qt6/QtWidgets/QSplitter \
  /usr/include/qt6/QtWidgets/qsplitter.h /usr/include/qt6/QtCore/QEvent \
  /usr/include/qt6/QtCore/qcoreevent.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_multimediapage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/multimediapage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_repospage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/repospage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_reviewpage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/reviewpage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_systemtoolspage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/systemtoolspage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_updatepage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/updatepage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_virtpage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/virtpage.h \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/moc_welcomepage.cpp \
- /home/diogo/Documentos/Oppy\ Config/linuxutil/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/welcomepage.h
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_multimediapage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/multimediapage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_repospage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/repospage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_reviewpage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/reviewpage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_systemtoolspage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/systemtoolspage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_updatepage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/updatepage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_virtpage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/virtpage.h \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/moc_welcomepage.cpp \
+ /home/diogo/Documentos/Oppy\ Config/rapidora/build_test/rapidora_autogen/V5LNE4NMWJ/../../../src/pages/welcomepage.h

@@ -43,7 +43,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Linux - 6.19.10-300.fc44.x86_64 - x86_64
+      The system is: Linux - 7.0.4-200.fc44.x86_64 - x86_64
   -
     kind: "find-v1"
     backtrace:
@@ -180,7 +180,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/4.3.0/CompilerIdCXX/a.out
+        /home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/4.3.0/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -575,7 +575,7 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "gcc-ar-16.0"
+      - "gcc-ar-16.1"
       - "gcc-ar-16"
       - "gcc-ar16"
       - "gcc-ar"
@@ -586,11 +586,11 @@ events:
       - "/usr/local/bin/"
       - "/bin/"
     searched_directories:
-      - "/usr/bin/gcc-ar-16.0"
-      - "/home/diogo/.local/bin/gcc-ar-16.0"
-      - "/home/diogo/bin/gcc-ar-16.0"
-      - "/usr/local/bin/gcc-ar-16.0"
-      - "/bin/gcc-ar-16.0"
+      - "/usr/bin/gcc-ar-16.1"
+      - "/home/diogo/.local/bin/gcc-ar-16.1"
+      - "/home/diogo/bin/gcc-ar-16.1"
+      - "/usr/local/bin/gcc-ar-16.1"
+      - "/bin/gcc-ar-16.1"
       - "/usr/bin/gcc-ar-16"
       - "/home/diogo/.local/bin/gcc-ar-16"
       - "/home/diogo/bin/gcc-ar-16"
@@ -627,7 +627,7 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "gcc-ranlib-16.0"
+      - "gcc-ranlib-16.1"
       - "gcc-ranlib-16"
       - "gcc-ranlib16"
       - "gcc-ranlib"
@@ -638,11 +638,11 @@ events:
       - "/usr/local/bin/"
       - "/bin/"
     searched_directories:
-      - "/usr/bin/gcc-ranlib-16.0"
-      - "/home/diogo/.local/bin/gcc-ranlib-16.0"
-      - "/home/diogo/bin/gcc-ranlib-16.0"
-      - "/usr/local/bin/gcc-ranlib-16.0"
-      - "/bin/gcc-ranlib-16.0"
+      - "/usr/bin/gcc-ranlib-16.1"
+      - "/home/diogo/.local/bin/gcc-ranlib-16.1"
+      - "/home/diogo/bin/gcc-ranlib-16.1"
+      - "/usr/local/bin/gcc-ranlib-16.1"
+      - "/bin/gcc-ranlib-16.1"
       - "/usr/bin/gcc-ranlib-16"
       - "/home/diogo/.local/bin/gcc-ranlib-16"
       - "/home/diogo/bin/gcc-ranlib-16"
@@ -670,8 +670,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-a4ZuVa"
-      binary: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-a4ZuVa"
+      source: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-Org3XS"
+      binary: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-Org3XS"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -682,28 +682,27 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-a4ZuVa'
+        Change Dir: '/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-Org3XS'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f1579/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f1579.dir/build.make CMakeFiles/cmTC_f1579.dir/build
-        gmake[1]: Entering directory '/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-a4ZuVa'
-        Building CXX object CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_32046/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_32046.dir/build.make CMakeFiles/cmTC_32046.dir/build
+        gmake[1]: Entering directory '/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-Org3XS'
+        Building CXX object CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-redhat-linux
-        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,algol68,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.0.1-build/gcc-16.0.1-20260321/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,algol68,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
-        gcc version 16.0.1 20260321 (Red Hat 16.0.1-0) (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_f1579.dir/'
-         /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f1579.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccjRwj8c.s
-        GNU C++20 (GCC) version 16.0.1 20260321 (Red Hat 16.0.1-0) (x86_64-redhat-linux)
-        	compiled by GNU C version 16.0.1 20260321 (Red Hat 16.0.1-0), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.24-GMP
+        gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_32046.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_32046.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccGxxJ7y.s
+        GNU C++20 (GCC) version 16.1.1 20260501 (Red Hat 16.1.1-1) (x86_64-redhat-linux)
+        	compiled by GNU C version 16.1.1 20260501 (Red Hat 16.1.1-1), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.24-GMP
         
-        warning: MPC header version 1.3.1 differs from library version 1.4.0.
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/include-fixed"
         ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"
@@ -716,35 +715,35 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        Compiler executable checksum: 581224c9b53e01ce90214ca58bc833d2
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_f1579.dir/'
-         as -v --64 -o CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccjRwj8c.s
+        Compiler executable checksum: e9c585eac4e856898ce035818c58d516
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_32046.dir/'
+         as -v --64 -o CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGxxJ7y.s
         GNU assembler version 2.46 (x86_64-redhat-linux) using BFD version version 2.46-1.fc44
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_f1579
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1579.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_32046
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32046.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-redhat-linux
-        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,algol68,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.0.1-build/gcc-16.0.1-20260321/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,algol68,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
-        gcc version 16.0.1 20260321 (Red Hat 16.0.1-0) (GCC) 
+        gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1579' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_f1579.'
-         /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPfpCGr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f1579 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
-        collect2 version 16.0.1 20260321 (Red Hat 16.0.1-0)
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPfpCGr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f1579 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32046' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_32046.'
+         /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cch8jmh4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_32046 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        collect2 version 16.1.1 20260501 (Red Hat 16.1.1-1)
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cch8jmh4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_32046 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
         GNU ld version 2.46-1.fc44
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1579' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_f1579.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f1579
-        gmake[1]: Leaving directory '/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-a4ZuVa'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32046' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_32046.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_32046
+        gmake[1]: Leaving directory '/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-Org3XS'
         
       exitCode: 0
   -
@@ -783,28 +782,27 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-a4ZuVa']
+        ignore line: [Change Dir: '/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-Org3XS']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f1579/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_f1579.dir/build.make CMakeFiles/cmTC_f1579.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-a4ZuVa']
-        ignore line: [Building CXX object CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_32046/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_32046.dir/build.make CMakeFiles/cmTC_32046.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-Org3XS']
+        ignore line: [Building CXX object CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-redhat-linux]
-        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol algol68 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.0.1-build/gcc-16.0.1-20260321/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol algol68 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 16.0.1 20260321 (Red Hat 16.0.1-0) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_f1579.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f1579.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccjRwj8c.s]
-        ignore line: [GNU C++20 (GCC) version 16.0.1 20260321 (Red Hat 16.0.1-0) (x86_64-redhat-linux)]
-        ignore line: [	compiled by GNU C version 16.0.1 20260321 (Red Hat 16.0.1-0)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: [gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_32046.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_32046.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccGxxJ7y.s]
+        ignore line: [GNU C++20 (GCC) version 16.1.1 20260501 (Red Hat 16.1.1-1) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 16.1.1 20260501 (Red Hat 16.1.1-1)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.24-GMP]
         ignore line: []
-        ignore line: [warning: MPC header version 1.3.1 differs from library version 1.4.0.]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/include-fixed"]
         ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"]
@@ -817,34 +815,34 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 581224c9b53e01ce90214ca58bc833d2]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_f1579.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccjRwj8c.s]
+        ignore line: [Compiler executable checksum: e9c585eac4e856898ce035818c58d516]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_32046.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGxxJ7y.s]
         ignore line: [GNU assembler version 2.46 (x86_64-redhat-linux) using BFD version version 2.46-1.fc44]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_f1579]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1579.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_32046]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32046.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-redhat-linux]
-        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol algol68 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.0.1-build/gcc-16.0.1-20260321/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol algol68 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 16.0.1 20260321 (Red Hat 16.0.1-0) (GCC) ]
+        ignore line: [gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1579' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_f1579.']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPfpCGr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f1579 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32046' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_32046.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cch8jmh4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_32046 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccPfpCGr.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cch8jmh4.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -860,7 +858,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_f1579] ==> ignore
+          arg [cmTC_32046] ==> ignore
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o]
@@ -872,7 +870,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -883,8 +881,8 @@ events:
           arg [-lgcc] ==> lib [gcc]
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
-        ignore line: [collect2 version 16.0.1 20260321 (Red Hat 16.0.1-0)]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPfpCGr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f1579 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f1579.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        ignore line: [collect2 version 16.1.1 20260501 (Red Hat 16.1.1-1)]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cch8jmh4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_32046 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_32046.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
@@ -923,13 +921,13 @@ events:
       - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "/usr/lib64/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:190 (include)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:193 (include)"
       - "CMakeLists.txt:33 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-cSsNkd"
-      binary: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-cSsNkd"
+      source: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-vK0J48"
+      binary: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-vK0J48"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -940,18 +938,18 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-cSsNkd'
+        Change Dir: '/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-vK0J48'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_607e8/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_607e8.dir/build.make CMakeFiles/cmTC_607e8.dir/build
-        gmake[1]: Entrando no diretório '/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-cSsNkd'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_05cca/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_05cca.dir/build.make CMakeFiles/cmTC_05cca.dir/build
+        gmake[1]: Entrando no diretório '/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-vK0J48'
         
-        Building CXX object CMakeFiles/cmTC_607e8.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_607e8.dir/src.cxx.o -c "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-cSsNkd/src.cxx"
-        Linking CXX executable cmTC_607e8
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_607e8.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_607e8.dir/src.cxx.o -o cmTC_607e8
-        gmake[1]: Saindo do diretório '/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-cSsNkd'
+        Building CXX object CMakeFiles/cmTC_05cca.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_05cca.dir/src.cxx.o -c "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-vK0J48/src.cxx"
+        Linking CXX executable cmTC_05cca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05cca.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_05cca.dir/src.cxx.o -o cmTC_05cca
+        gmake[1]: Saindo do diretório '/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-vK0J48'
         
         
       exitCode: 0
@@ -966,13 +964,13 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Core/Qt6CoreDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib64/cmake/Qt6Core/Qt6CoreConfig.cmake:52 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-XIW2Zv"
-      binary: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-XIW2Zv"
+      source: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-kUkZSg"
+      binary: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-kUkZSg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -983,18 +981,18 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-XIW2Zv'
+        Change Dir: '/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-kUkZSg'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_316c7/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_316c7.dir/build.make CMakeFiles/cmTC_316c7.dir/build
-        gmake[1]: Entrando no diretório '/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-XIW2Zv'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_618f4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_618f4.dir/build.make CMakeFiles/cmTC_618f4.dir/build
+        gmake[1]: Entrando no diretório '/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-kUkZSg'
         
-        Building CXX object CMakeFiles/cmTC_316c7.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_316c7.dir/src.cxx.o -c "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-XIW2Zv/src.cxx"
-        Linking CXX executable cmTC_316c7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_316c7.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_316c7.dir/src.cxx.o -o cmTC_316c7
-        gmake[1]: Saindo do diretório '/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/CMakeScratch/TryCompile-XIW2Zv'
+        Building CXX object CMakeFiles/cmTC_618f4.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_618f4.dir/src.cxx.o -c "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-kUkZSg/src.cxx"
+        Linking CXX executable cmTC_618f4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_618f4.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_618f4.dir/src.cxx.o -o cmTC_618f4
+        gmake[1]: Saindo do diretório '/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/CMakeScratch/TryCompile-kUkZSg'
         
         
       exitCode: 0
@@ -1004,7 +1002,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
       - "/usr/lib64/cmake/Qt6Core/Qt6CoreDependencies.cmake:43 (_qt_internal_find_tool_dependencies)"
       - "/usr/lib64/cmake/Qt6Core/Qt6CoreConfig.cmake:52 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     name: "Qt6CoreTools"
     configs:
@@ -1021,8 +1019,8 @@ events:
         filename: "qt6coretools-config.cmake"
         kind: "cmake"
     version_request:
-      version: "6.10.2"
-      version_complete: "6.10.2"
+      version: "6.10.3"
+      version_complete: "6.10.3"
       exact: false
     settings:
       required: "optional"
@@ -1049,35 +1047,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6CoreTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6CoreTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6coretools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6coretools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6CoreTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6CoreTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6coretools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6coretools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6CoreTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6CoreTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/qt6coretools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/qt6coretools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1211,7 +1209,7 @@ events:
     found:
       path: "/usr/lib64/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake"
       mode: "config"
-      version: "6.10.2"
+      version: "6.10.3"
     search_context:
       ENV{PATH}:
         - "/home/diogo/.local/bin"
@@ -1232,7 +1230,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     name: "Qt6Core"
     configs:
@@ -1274,35 +1272,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/qt6core-config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/qt6core-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6Core.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6Core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6core.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6Core.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6Core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6core.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6Core.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6Core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/qt6core.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/qt6core.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1324,7 +1322,7 @@ events:
     found:
       path: "/usr/lib64/cmake/Qt6Core/Qt6CoreConfig.cmake"
       mode: "config"
-      version: "6.10.2"
+      version: "6.10.3"
     search_context:
       ENV{PATH}:
         - "/home/diogo/.local/bin"
@@ -1351,7 +1349,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     name: "Qt6GuiTools"
     configs:
@@ -1368,8 +1366,8 @@ events:
         filename: "qt6guitools-config.cmake"
         kind: "cmake"
     version_request:
-      version: "6.10.2"
-      version_complete: "6.10.2"
+      version: "6.10.3"
+      version_complete: "6.10.3"
       exact: false
     settings:
       required: "optional"
@@ -1396,35 +1394,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6GuiTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6GuiTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6guitools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6guitools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6GuiTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6GuiTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6guitools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6guitools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6GuiTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6GuiTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/qt6guitools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/qt6guitools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1558,7 +1556,7 @@ events:
     found:
       path: "/usr/lib64/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake"
       mode: "config"
-      version: "6.10.2"
+      version: "6.10.3"
     search_context:
       ENV{PATH}:
         - "/home/diogo/.local/bin"
@@ -1582,7 +1580,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     name: "Qt6WidgetsTools"
     configs:
@@ -1599,8 +1597,8 @@ events:
         filename: "qt6widgetstools-config.cmake"
         kind: "cmake"
     version_request:
-      version: "6.10.2"
-      version_complete: "6.10.2"
+      version: "6.10.3"
+      version_complete: "6.10.3"
       exact: false
     settings:
       required: "optional"
@@ -1627,35 +1625,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6WidgetsTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6WidgetsTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6widgetstools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6widgetstools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6WidgetsTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6WidgetsTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6widgetstools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6widgetstools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6WidgetsTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6WidgetsTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/qt6widgetstools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/qt6widgetstools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1789,7 +1787,7 @@ events:
     found:
       path: "/usr/lib64/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake"
       mode: "config"
-      version: "6.10.2"
+      version: "6.10.3"
     search_context:
       ENV{PATH}:
         - "/home/diogo/.local/bin"
@@ -1822,7 +1820,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "path"
     variable: "OPENGL_INCLUDE_DIR"
@@ -1901,7 +1899,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "path"
     variable: "OPENGL_GLX_INCLUDE_DIR"
@@ -1977,7 +1975,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "path"
     variable: "OPENGL_EGL_INCLUDE_DIR"
@@ -2053,7 +2051,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "path"
     variable: "OPENGL_GLES2_INCLUDE_DIR"
@@ -2129,7 +2127,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "path"
     variable: "OPENGL_GLES3_INCLUDE_DIR"
@@ -2205,7 +2203,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "path"
     variable: "OPENGL_xmesa_INCLUDE_DIR"
@@ -2297,7 +2295,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "path"
     variable: "OPENGL_GLU_INCLUDE_DIR"
@@ -2383,7 +2381,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "library"
     variable: "OPENGL_opengl_LIBRARY"
@@ -2454,7 +2452,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "library"
     variable: "OPENGL_glx_LIBRARY"
@@ -2525,7 +2523,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "library"
     variable: "OPENGL_egl_LIBRARY"
@@ -2596,7 +2594,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "library"
     variable: "OPENGL_gles2_LIBRARY"
@@ -2667,7 +2665,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "library"
     variable: "OPENGL_gles3_LIBRARY"
@@ -2752,7 +2750,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "library"
     variable: "OPENGL_glu_LIBRARY"
@@ -2842,7 +2840,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "path"
     variable: "Vulkan_INCLUDE_DIR"
@@ -2916,7 +2914,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "library"
     variable: "Vulkan_LIBRARY"
@@ -2985,7 +2983,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLC_EXECUTABLE"
@@ -3077,7 +3075,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
@@ -3172,7 +3170,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     name: "Qt6DBusTools"
     configs:
@@ -3189,8 +3187,8 @@ events:
         filename: "qt6dbustools-config.cmake"
         kind: "cmake"
     version_request:
-      version: "6.10.2"
-      version_complete: "6.10.2"
+      version: "6.10.3"
+      version_complete: "6.10.3"
       exact: false
     settings:
       required: "optional"
@@ -3217,35 +3215,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/Qt6DBusToolsConfig.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/Qt6DBusToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/qt6dbustools-config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/qt6dbustools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6DBusTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6DBusTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6dbustools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6dbustools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6DBusTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6DBusTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6dbustools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6dbustools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6DBusTools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6DBusTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/qt6dbustools.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/qt6dbustools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3379,7 +3377,7 @@ events:
     found:
       path: "/usr/lib64/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake"
       mode: "config"
-      version: "6.10.2"
+      version: "6.10.3"
     search_context:
       ENV{PATH}:
         - "/home/diogo/.local/bin"
@@ -3410,7 +3408,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     name: "Qt6DBus"
     configs:
@@ -3427,8 +3425,8 @@ events:
         filename: "qt6dbus-config.cmake"
         kind: "cmake"
     version_request:
-      version: "6.10.2"
-      version_complete: "6.10.2"
+      version: "6.10.3"
+      version_complete: "6.10.3"
       exact: false
     settings:
       required: "optional"
@@ -3455,35 +3453,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/Qt6DBusConfig.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/Qt6DBusConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/qt6dbus-config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/qt6dbus-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6DBus.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6DBus.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6dbus.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6dbus.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6DBus.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6DBus.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6dbus.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6dbus.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6DBus.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6DBus.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/qt6dbus.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/qt6dbus.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3505,7 +3503,7 @@ events:
     found:
       path: "/usr/lib64/cmake/Qt6DBus/Qt6DBusConfig.cmake"
       mode: "config"
-      version: "6.10.2"
+      version: "6.10.3"
     search_context:
       ENV{PATH}:
         - "/home/diogo/.local/bin"
@@ -3531,7 +3529,7 @@ events:
       - "/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     name: "Qt6Gui"
     configs:
@@ -3548,8 +3546,8 @@ events:
         filename: "qt6gui-config.cmake"
         kind: "cmake"
     version_request:
-      version: "6.10.2"
-      version_complete: "6.10.2"
+      version: "6.10.3"
+      version_complete: "6.10.3"
       exact: false
     settings:
       required: "optional"
@@ -3576,35 +3574,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6Gui.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6Gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6gui.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6Gui.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6Gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6gui.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6Gui.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6Gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/qt6gui.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/qt6gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3626,7 +3624,7 @@ events:
     found:
       path: "/usr/lib64/cmake/Qt6Gui/Qt6GuiConfig.cmake"
       mode: "config"
-      version: "6.10.2"
+      version: "6.10.3"
     search_context:
       ENV{PATH}:
         - "/home/diogo/.local/bin"
@@ -3647,7 +3645,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     name: "Qt6Widgets"
     configs:
@@ -3689,35 +3687,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6Widgets.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6Widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6widgets.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6Widgets.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6Widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6widgets.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6Widgets.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6Widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/qt6widgets.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/qt6widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3739,7 +3737,7 @@ events:
     found:
       path: "/usr/lib64/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
       mode: "config"
-      version: "6.10.2"
+      version: "6.10.3"
     search_context:
       ENV{PATH}:
         - "/home/diogo/.local/bin"
@@ -3760,7 +3758,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
       - "CMakeLists.txt:33 (find_package)"
     name: "Qt6Concurrent"
     configs:
@@ -3802,35 +3800,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/Qt6ConcurrentConfig.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/Qt6ConcurrentConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/qt6concurrent-config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/qt6concurrent-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6Concurrent.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6Concurrent.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6concurrent.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6concurrent.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6Concurrent.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6Concurrent.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6concurrent.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6concurrent.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6Concurrent.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6Concurrent.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/qt6concurrent.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/qt6concurrent.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3844,7 +3842,7 @@ events:
     found:
       path: "/usr/lib64/cmake/Qt6Concurrent/Qt6ConcurrentConfig.cmake"
       mode: "config"
-      version: "6.10.2"
+      version: "6.10.3"
     search_context:
       ENV{PATH}:
         - "/home/diogo/.local/bin"
@@ -3917,35 +3915,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/Qt6Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/qt6.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -4141,6 +4139,46 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "/usr/lib64/cmake/Qt6UiToolsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6UiToolsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6UiTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6UiTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6UiPlugin/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6UiPlugin/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6ToolsTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6ToolsTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6Tools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6Tools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "/usr/lib64/cmake/Qt6TextToSpeech/Qt6Config.cmake"
         mode: "config"
         reason: "no_exist"
@@ -4162,6 +4200,30 @@ events:
         reason: "no_exist"
       -
         path: "/usr/lib64/cmake/Qt6Sql/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6QDocCatchPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6QDocCatchPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6QDocCatchGeneratorsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6QDocCatchGeneratorsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6QDocCatchConversionsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6QDocCatchConversionsPrivate/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4197,11 +4259,43 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "/usr/lib64/cmake/Qt6LinguistTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6LinguistTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6Linguist/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6Linguist/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "/usr/lib64/cmake/Qt6HostInfo/Qt6Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
         path: "/usr/lib64/cmake/Qt6HostInfo/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6HelpPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6HelpPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6Help/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6Help/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4218,6 +4312,30 @@ events:
         reason: "no_exist"
       -
         path: "/usr/lib64/cmake/Qt6Gui/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6DesignerPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6DesignerPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6DesignerComponentsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6DesignerComponentsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6Designer/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cmake/Qt6Designer/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4271,7 +4389,7 @@ events:
     found:
       path: "/usr/lib64/cmake/Qt6/Qt6Config.cmake"
       mode: "config"
-      version: "6.10.2"
+      version: "6.10.3"
     search_context:
       ENV{PATH}:
         - "/home/diogo/.local/bin"
@@ -4296,8 +4414,8 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:251 (find_package)"
-      - "CMakeLists.txt:66 (find_package)"
+      - "/usr/lib64/cmake/Qt6/Qt6Config.cmake:254 (find_package)"
+      - "CMakeLists.txt:69 (find_package)"
     name: "Qt6Test"
     configs:
       -
@@ -4338,35 +4456,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/Qt6TestConfig.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/Qt6TestConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/qt6test-config.cmake"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/qt6test-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6Test.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/Qt6Test.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6test.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib64/cps/qt6test.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6Test.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/Qt6Test.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6test.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/lib/cps/qt6test.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6Test.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/Qt6Test.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/diogo/Documentos/Oppy Config/linuxutil/build_test/CMakeFiles/pkgRedirects/share/cps/qt6test.cps"
+        path: "/home/diogo/Documentos/Oppy Config/rapidora/build_test/CMakeFiles/pkgRedirects/share/cps/qt6test.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -4380,7 +4498,7 @@ events:
     found:
       path: "/usr/lib64/cmake/Qt6Test/Qt6TestConfig.cmake"
       mode: "config"
-      version: "6.10.2"
+      version: "6.10.3"
     search_context:
       ENV{PATH}:
         - "/home/diogo/.local/bin"

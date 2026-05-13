@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
 
     QApplication app(argc, argv);
     app.setApplicationName("Rapidora");
-    app.setApplicationVersion("1.0.6");
+    app.setApplicationVersion("1.0.8");
     app.setOrganizationName("LinuxGamerLife");
     app.setWindowIcon(QIcon::fromTheme("rapidora", QIcon("/usr/share/pixmaps/rapidora.png")));
 
